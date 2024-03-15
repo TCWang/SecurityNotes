@@ -41,9 +41,9 @@
 </template>
 
 <script setup>
-const { data } = await useAsyncData("sample-list", () =>
-  queryContent("/sample")
-    .where({ _path: { $ne: "/sample" } })
+const { data } = await useAsyncData("jobDefinition-list", () =>
+  queryContent("/jobDefinition")
+    .where({ _path: { $ne: "/jobDefinition" } })
     .only([
       "_path",
       "title",
