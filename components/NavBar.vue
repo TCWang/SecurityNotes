@@ -29,21 +29,21 @@
         <ul style="list-style: none" class="flex space-x-8">
           <li>
             <a
-              href="/sample"
+              href="/jobDefinition"
               class="active border-b-2 border-blue-500 pb-1 text-white"
-              >區域建設</a
+              >Job Definition</a
             >
           </li>
-          <li><a href="/chart" class="text-white">政府公告</a></li>
-          <li><a href="/" class="text-white">公共事務</a></li>
-          <li><a href="/" class="text-white">民意代表</a></li>
-          <li><a href="/" class="text-white">里長交流</a></li>
-          <li><a href="/" class="text-white">社區營造</a></li>
+          <li><a href="/" class="text-white">Oppeortunity</a></li>
+          <li><a href="/" class="text-white">Reference</a></li>
+          <li><a href="/" class="text-white">Detection Engineer</a></li>
+          <li><a href="/" class="text-white">Certification</a></li>
+          <li><a href="/" class="text-white">SOC</a></li>
           <li>
             <a
               href="/"
               class="cta bg-blue-500 hover:bg-blue-600 px-3 py-2 rounded text-white"
-              >社區網站</a
+              >Communication</a
             >
           </li>
         </ul>
@@ -104,33 +104,36 @@
 
         <ul style="list-style: none" class="divide-y text-base">
           <li>
-            <a href="/sample" @click="isOpen = false" class="my-2 inline-block"
-              >區域建設</a
-            >
-          </li>
-          <li>
-            <a href="/chart" @click="isOpen = false" class="my-2 inline-block"
-              >政府公告</a
-            >
-          </li>
-          <li>
-            <a href="/" @click="isOpen = false" class="my-2 inline-block"
-              >公共事務</a
+            <a
+              href="/jobDefinition"
+              @click="isOpen = false"
+              class="my-2 inline-block"
+              >Job Definition</a
             >
           </li>
           <li>
             <a href="/" @click="isOpen = false" class="my-2 inline-block"
-              >民意代表</a
+              >Opportunity</a
             >
           </li>
           <li>
             <a href="/" @click="isOpen = false" class="my-2 inline-block"
-              >里長交流</a
+              >Reference</a
             >
           </li>
           <li>
             <a href="/" @click="isOpen = false" class="my-2 inline-block"
-              >社區營造</a
+              >Detection Engineer</a
+            >
+          </li>
+          <li>
+            <a href="/" @click="isOpen = false" class="my-2 inline-block"
+              >Certification</a
+            >
+          </li>
+          <li>
+            <a href="/" @click="isOpen = false" class="my-2 inline-block"
+              >SOC</a
             >
           </li>
           <li>
@@ -138,13 +141,13 @@
               href="/"
               @click="isOpen = false"
               class="my-4 w-full text-center cta inline-block bg-blue-500 hover:bg-blue-600 px-3 py-2 rounded text-white"
-              >社區網站</a
+              >Communication</a
             >
           </li>
         </ul>
 
         <div class="follow">
-          <p class="italic text-sm">社群連接:</p>
+          <p class="italic text-sm">WebSites:</p>
           <div class="social flex space-x-5 mt-4">
             <!-- <a href="#">
               <svg
@@ -163,7 +166,7 @@
                 ></path>
               </svg>
             </a> -->
-            <a href="https://www.facebook.com/groups/a7xinlinkou">
+            <a href="">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -180,7 +183,7 @@
                 ></path>
               </svg>
             </a>
-            <a href="https://www.instagram.com/a7replanning/">
+            <a href="">
               <svg
                 aria-hidden="true"
                 focusable="false"
