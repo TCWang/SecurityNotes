@@ -33,7 +33,7 @@ const { data } = await useAsyncData("soc-list", () =>
   queryContent("/soc")
     .where({ _path: { $ne: "/soc" } })
     .only(["_path", "title", "publishedAt", "category", "sequence"])
-    .sort({ sequence: 1 })
+    .sort({ category: 1 })
     .find()
 );
 
