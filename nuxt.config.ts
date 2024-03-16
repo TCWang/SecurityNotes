@@ -23,11 +23,11 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: "A7社區網站-地方行政",
+      title: "Cyber Security Study Notes",
       meta: [
         {
           name: "description",
-          content: "A7新林口-社區網站 V2.0 14 地方行政",
+          content: "Cyber Security Study Notes",
         },
       ],
       link: [

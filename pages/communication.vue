@@ -19,8 +19,11 @@
       </li>
       <li>
         4. 依據 Job Title, 歸納出此職系所需的技能。 如Detection Engineer
-        需要的技能要求有哪些
+        需要的技能要求有哪些? 譬如
         <a href="https://securitynotes.netlify.app/eng">Detection Engineer</a>
+        可以做一個 總整理，
+        哪些是妳有接觸的部分，其他沒做過的也須知道哪裡可以找到。
+        面試時就能清楚表達。
       </li>
     </ul>
   </div>
