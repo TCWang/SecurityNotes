@@ -36,8 +36,8 @@
           </li>
           <li><a href="/job" class="text-white">Job Definition</a></li>
           <li><a href="/opp" class="text-white">Oppeortunity</a></li>
-          <li><a href="/" class="text-white">Reference</a></li>
-          <li><a href="/" class="text-white">Detection Engineer</a></li>
+          <li><a href="/ref" class="text-white">Reference</a></li>
+          <li><a href="/eng" class="text-white">Detection Engineer</a></li>
           <li><a href="/" class="text-white">Certification</a></li>
 
           <li>
@@ -121,12 +121,12 @@
           </li>
 
           <li>
-            <a href="/" @click="isOpen = false" class="my-2 inline-block"
+            <a href="/ref" @click="isOpen = false" class="my-2 inline-block"
               >Reference</a
             >
           </li>
           <li>
-            <a href="/" @click="isOpen = false" class="my-2 inline-block"
+            <a href="/eng" @click="isOpen = false" class="my-2 inline-block"
               >Detection Engineer</a
             >
           </li>
