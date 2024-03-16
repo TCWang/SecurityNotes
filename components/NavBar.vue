@@ -29,19 +29,20 @@
         <ul style="list-style: none" class="flex space-x-8">
           <li>
             <a
-              href="/job"
+              href="/soc"
               class="active border-b-2 border-blue-500 pb-1 text-white"
-              >Job Definition</a
+              >SOC</a
             >
           </li>
-          <li><a href="/" class="text-white">Oppeortunity</a></li>
+          <li><a href="/job" class="text-white">Job Definition</a></li>
+          <li><a href="/opp" class="text-white">Oppeortunity</a></li>
           <li><a href="/" class="text-white">Reference</a></li>
           <li><a href="/" class="text-white">Detection Engineer</a></li>
           <li><a href="/" class="text-white">Certification</a></li>
-          <li><a href="/" class="text-white">SOC</a></li>
+
           <li>
             <a
-              href="/"
+              href="/communication"
               class="cta bg-blue-500 hover:bg-blue-600 px-3 py-2 rounded text-white"
               >Communication</a
             >
@@ -104,15 +105,21 @@
 
         <ul style="list-style: none" class="divide-y text-base">
           <li>
+            <a href="/soc" @click="isOpen = false" class="my-2 inline-block"
+              >SOC</a
+            >
+          </li>
+          <li>
             <a href="/job" @click="isOpen = false" class="my-2 inline-block"
               >Job Definition</a
             >
           </li>
           <li>
-            <a href="/" @click="isOpen = false" class="my-2 inline-block"
+            <a href="/opp" @click="isOpen = false" class="my-2 inline-block"
               >Opportunity</a
             >
           </li>
+
           <li>
             <a href="/" @click="isOpen = false" class="my-2 inline-block"
               >Reference</a
@@ -128,14 +135,10 @@
               >Certification</a
             >
           </li>
-          <li>
-            <a href="/" @click="isOpen = false" class="my-2 inline-block"
-              >SOC</a
-            >
-          </li>
+
           <li>
             <a
-              href="/"
+              href="/communication"
               @click="isOpen = false"
               class="my-4 w-full text-center cta inline-block bg-blue-500 hover:bg-blue-600 px-3 py-2 rounded text-white"
               >Communication</a
