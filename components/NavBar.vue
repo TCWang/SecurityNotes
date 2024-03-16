@@ -29,7 +29,7 @@
         <ul style="list-style: none" class="flex space-x-8">
           <li>
             <a
-              href="/jobDefinition"
+              href="/job"
               class="active border-b-2 border-blue-500 pb-1 text-white"
               >Job Definition</a
             >
@@ -104,10 +104,7 @@
 
         <ul style="list-style: none" class="divide-y text-base">
           <li>
-            <a
-              href="/jobDefinition"
-              @click="isOpen = false"
-              class="my-2 inline-block"
+            <a href="/job" @click="isOpen = false" class="my-2 inline-block"
               >Job Definition</a
             >
           </li>
