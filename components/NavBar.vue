@@ -38,7 +38,7 @@
           <li><a href="/opp" class="text-white">Oppeortunity</a></li>
           <li><a href="/ref" class="text-white">Reference</a></li>
           <li><a href="/eng" class="text-white">Detection Engineer</a></li>
-          <li><a href="/" class="text-white">Certification</a></li>
+          <li><a href="/cer" class="text-white">Certification</a></li>
 
           <li>
             <a
@@ -131,7 +131,7 @@
             >
           </li>
           <li>
-            <a href="/" @click="isOpen = false" class="my-2 inline-block"
+            <a href="/cer" @click="isOpen = false" class="my-2 inline-block"
               >Certification</a
             >
           </li>
