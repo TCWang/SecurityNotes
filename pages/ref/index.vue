@@ -34,7 +34,7 @@ const { data } = await useAsyncData("reference-list", () =>
   queryContent("/ref")
     .where({ _path: { $ne: "/ref" } })
     .only(["_path", "title", "publishedAt", "category", "sequence"])
-    .sort({ sequence: 1 })
+    .sort({ category: 1 })
     .find()
 );
 

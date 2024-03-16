@@ -34,7 +34,7 @@ const { data } = await useAsyncData("certification-list", () =>
   queryContent("/cer")
     .where({ _path: { $ne: "/cer" } })
     .only(["_path", "title", "publishedAt", "category", "sequence"])
-    .sort({ sequence: 1 })
+    .sort({ category: 1 })
     .find()
 );
 

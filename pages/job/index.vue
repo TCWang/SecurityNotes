@@ -34,7 +34,7 @@ const { data } = await useAsyncData("job-list", () =>
   queryContent("/job")
     .where({ _path: { $ne: "/job" } })
     .only(["_path", "title", "publishedAt", "category", "sequence"])
-    .sort({ sequence: 1 })
+    .sort({ category: 1 })
     .find()
 );
 
