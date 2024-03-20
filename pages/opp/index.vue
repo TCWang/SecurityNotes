@@ -29,6 +29,10 @@
 </template>
 
 <script setup>
+useHead({
+  title: "Job Oppertunity",
+  meta: [{ name: "description", content: "Job Oppertunity" }],
+});
 // const posts = await queryContent("/").only(["_path", "title"]).find();
 const { data } = await useAsyncData("oppertunity-list", () =>
   queryContent("/opp")

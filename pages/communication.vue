@@ -29,6 +29,11 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+useHead({
+  title: "Communication",
+  meta: [{ name: "description", content: "Communication with viewer " }],
+});
+</script>
 
 <style scoped></style>

@@ -29,6 +29,10 @@
 </template>
 
 <script setup>
+useHead({
+  title: "Reference",
+  meta: [{ name: "description", content: "Security Study Reference  " }],
+});
 // const posts = await queryContent("/").only(["_path", "title"]).find();
 const { data } = await useAsyncData("reference-list", () =>
   queryContent("/ref")

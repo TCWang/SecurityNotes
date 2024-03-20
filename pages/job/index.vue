@@ -29,6 +29,10 @@
 </template>
 
 <script setup>
+useHead({
+  title: "CyberSecurity Job Definition ",
+  meta: [{ name: "description", content: "Job Definition" }],
+});
 // const posts = await queryContent("/").only(["_path", "title"]).find();
 const { data } = await useAsyncData("job-list", () =>
   queryContent("/job")

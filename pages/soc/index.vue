@@ -29,6 +29,15 @@
 </template>
 
 <script setup>
+useHead({
+  title: "SOC",
+  meta: [
+    {
+      name: "description",
+      content: "Security Operations Center, SOC Introduction ",
+    },
+  ],
+});
 const { data } = await useAsyncData("soc-list", () =>
   queryContent("/soc")
     .where({ _path: { $ne: "/soc" } })

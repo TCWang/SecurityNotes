@@ -29,6 +29,10 @@
 </template>
 
 <script setup>
+useHead({
+  title: "CyberSecurity Certification",
+  meta: [{ name: "description", content: "Security Certification " }],
+});
 // const posts = await queryContent("/").only(["_path", "title"]).find();
 const { data } = await useAsyncData("certification-list", () =>
   queryContent("/cer")
