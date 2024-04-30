@@ -1,0 +1,1 @@
+import{u as e}from"./vue.f36acd1f.9rQbYJ1U.js";import{c as t,o,a as s}from"./entry.Bd2dQ5Zn.js";const c={class:"container"},a=s("h1",null,"Security Study Notes",-1),n=[a],m={__name:"index",setup(r){return e({title:"Security Notes",meta:[{name:"description",content:"Security Study Notes "}]}),(i,_)=>(o(),t("div",c,n))}};export{m as default};
