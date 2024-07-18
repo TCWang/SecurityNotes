@@ -1,6 +1,6 @@
 <template>
   <section class="w-full max-w-6xl not-prose">
-    <h2>Detection Engineer</h2>
+    <h2>Job Functions</h2>
     <div class="column space-x-12 ml-6">
       <div>Category</div>
       <div>Title</div>
