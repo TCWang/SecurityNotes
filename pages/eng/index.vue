@@ -30,8 +30,8 @@
 
 <script setup>
 useHead({
-  title: "Technology",
-  meta: [{ name: "description", content: "Security  Technlogy " }],
+  title: "Job Functions",
+  meta: [{ name: "description", content: "Security Notes: Job Functions " }],
 });
 // const posts = await queryContent("/").only(["_path", "title"]).find();
 const { data } = await useAsyncData("engineer-list", () =>
